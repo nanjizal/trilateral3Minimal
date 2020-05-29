@@ -1,0 +1,33 @@
+-cmd echo 'installing geom library for maths matrix functionality'
+--next
+-cmd haxelib git geom https://github.com/nanjizal/geom.git
+
+-cmd echo 'installing dsHelper some array datastructures'
+--next
+-cmd haxelib git dsHelper https://github.com/nanjizal/dsHelper.git
+
+-cmd echo 'installing fracs, provides angles and fraction helpers'
+--next
+-cmd haxelib git fracs https://github.com/nanjizal/fracs.git
+
+-cmd echo 'installing justPath, provides svg path parsing ability'
+--next
+-cmd haxelib git justPath https://github.com/nanjizal/justPath.git
+
+-cmd echo 'installing trilateral3, provides contour to triangle functionality'
+--next
+-cmd haxelib git trilateral3 https://github.com/nanjizal/trilateral3.git
+
+-cmd echo 'installing pallette, provides range of useful hex colours'
+--next
+-cmd haxelib git pallette https://github.com/nanjizal/pallette.git
+
+-cmd echo 'installing kitGL, provides some helpers for working with GL and lime'
+--next
+-cmd haxelib git kitGL https://github.com/nanjizal/kitGL.git
+
+-cmd echo 'installing a range of fill algorithms, hxPolyK, poly2trihx, hxGeomAlgo.tess2'
+--next
+-cmd haxelib git hxPolyK https://github.com/nanjizal/hxPolyK.git
+-cmd haxelib git poly2trihx https://github.com/nerik/poly2trihx.git
+-cmd haxelib git hxGeomAlgo https://github.com/azrafe7/hxGeomAlgo.git

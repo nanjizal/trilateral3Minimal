@@ -1,0 +1,33 @@
+-js binWebGL/test.js
+-D nanjizal_geom # required for remapping to local maths to mine
+-cp src
+#-debug
+# html/js setup of simple webgl
+#-lib htmlHelper
+# matrix and array data structures
+-lib geom
+# now has quite a bit of data structures here
+-lib dsHelper
+# angle and fraction code maybe refactor?
+-lib fracs
+# svg paths
+-lib justPath
+# contours
+-lib trilateral3
+# colours   
+-lib pallette
+# fill functions
+-lib hxPolyK
+-lib poly2trihx 
+-lib hxGeomAlgo
+-lib kitGL
+# test see inside some example stuff maybe commented out. 
+-main trilateral3WebGL.AppGL
+#-D no-inline
+-D js-flatten 
+-dce full
+--next
+# generate html
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >binWebGL/index.html
+# open html on mac os.
+-cmd open binWebGL/index.html
